@@ -1,4 +1,4 @@
-# FeatureCloud app devleopment
+# FeatureCloud app development
 
 In this repository we will exemplify how one can develop FeatureCloud applications and test it natively.
 
