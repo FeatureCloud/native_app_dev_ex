@@ -22,11 +22,6 @@ def is_native():
     return True
 
 
-def run_native(app_instance):
-    app_instance.register()
-    app_instance.handle_setup(client_id='1', coordinator=True, clients=['1'])
-
-
 if __name__ == '__main__':
     if is_native():
         app.register()
