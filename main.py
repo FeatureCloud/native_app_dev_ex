@@ -10,7 +10,6 @@ server = Bottle()
 
 
 def run_app():
-    app.register()
     server.mount('/api', api_server)
     server.mount('/web', web_server)
     server.run(host='localhost', port=5000)
