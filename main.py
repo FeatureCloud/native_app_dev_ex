@@ -23,8 +23,8 @@ def is_native():
 
 
 if __name__ == '__main__':
+    app.register()
     if is_native():
-        app.register()
         app.handle_setup(client_id='1', coordinator=True, clients=['1'])
     else:
         run_app()
